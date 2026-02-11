@@ -56,21 +56,21 @@ enum class MonthNum{
 // std::endl; break;
 
 
-int numberEnter() {
-	int number{0};
+// int numberEnter() {
+// 	int number{0};
     
-    do {
-        std::cout << "Введите номер месяца или '0', чтобы зввершить: ";
-        std::cin >> number;
+//     do {
+//         std::cout << "Введите номер месяца или '0', чтобы зввершить: ";
+//         std::cin >> number;
         
-        if(number > 0 && number <= 12){
-            std::cout << "Вы ввели месяц номер: " << number << std::endl;
-        }
-    } while (number != 0);
+//         if(number > 0 && number <= 12){
+//             std::cout << "Вы ввели месяц номер: " << number << std::endl;
+//         }
+//     } while (number != 0);
 
-    std::cout << "Завершение программы." << std::endl;
-    return number;
-}
+//     std::cout << "Завершение программы." << std::endl;
+//     return number;
+// }
 
 
 
